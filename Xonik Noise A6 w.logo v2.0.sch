@@ -5760,7 +5760,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <parts>
 <part name="1" library="resistor" deviceset="R-EU_" device="R0805" value="220k"/>
 <part name="2" library="resistor" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="3" library="resistor" deviceset="R-EU_" device="R0805" value="20k"/>
 <part name="4" library="resistor" deviceset="R-EU_" device="R0805" value="100k"/>
 <part name="5" library="resistor" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="6" library="resistor" deviceset="R-EU_" device="R0805" value="20k"/>
@@ -5813,7 +5812,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <sheets>
 <sheet>
 <plain>
-<text x="66.04" y="139.7" size="1.778" layer="97">Mount EITHER R3 or external 50k trimmer</text>
+<text x="66.04" y="139.7" size="1.778" layer="97">Mount EITHER 20k or external 50k trimmer</text>
 <text x="139.7" y="73.66" size="1.778" layer="97">Approximated
 3dB/oct filter</text>
 <text x="139.7" y="25.4" size="1.778" layer="97">12dB inverting
@@ -5831,6 +5830,13 @@ with anode connected to gnd
 and katode to NOISE_IN, may
 need to adjust R3.
 </text>
+<text x="177.8" y="83.82" size="1.4224" layer="97">Max power:
+1k/20k amp config:
+Clips long before input reaches +/-15V,
+max current when feeding into a 10k resistor is
+650uA = 422uW. 
+
+ok with 1/10w resistors</text>
 </plain>
 <instances>
 <instance part="1" gate="G$1" x="60.96" y="111.76" smashed="yes" rot="R90">
@@ -5840,10 +5846,6 @@ need to adjust R3.
 <instance part="2" gate="G$1" x="81.28" y="119.38" smashed="yes" rot="R180">
 <attribute name="NAME" x="85.09" y="117.8814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="85.09" y="122.682" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="3" gate="G$1" x="91.44" y="119.38" smashed="yes" rot="R180">
-<attribute name="NAME" x="95.25" y="117.8814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="95.25" y="122.682" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="4" gate="G$1" x="83.82" y="101.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="85.3186" y="105.41" size="1.778" layer="95" rot="R270"/>
@@ -6044,12 +6046,10 @@ need to adjust R3.
 <net name="N$1" class="0">
 <segment>
 <pinref part="2" gate="G$1" pin="1"/>
-<pinref part="3" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="A" pin="-IN"/>
 <wire x1="86.36" y1="111.76" x2="86.36" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="LEVEL1" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="127" x2="86.36" y2="119.38" width="0.1524" layer="91"/>
-<junction x="86.36" y="119.38"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -6189,13 +6189,11 @@ need to adjust R3.
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="3" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="A" pin="OUT"/>
 <wire x1="96.52" y1="119.38" x2="101.6" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="119.38" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="LEVEL2" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="127" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
-<junction x="96.52" y="119.38"/>
 <wire x1="101.6" y1="109.22" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="106.68" x2="106.68" y2="106.68" width="0.1524" layer="91"/>
