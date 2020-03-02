@@ -5765,7 +5765,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="6" library="resistor" deviceset="R-EU_" device="R0805" value="20k"/>
 <part name="7" library="resistor" deviceset="R-EU_" device="R0805" value="100k"/>
 <part name="8" library="resistor" deviceset="R-EU_" device="R0805" value="68k"/>
-<part name="9" library="resistor" deviceset="R-EU_" device="R0805" value="33.2k"/>
+<part name="9" library="resistor" deviceset="R-EU_" device="R0805" value="33k"/>
 <part name="10" library="resistor" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="11" library="resistor" deviceset="R-EU_" device="R0805" value="3k"/>
 <part name="12" library="resistor" deviceset="R-EU_" device="R0805" value="1M"/>
@@ -5773,7 +5773,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="14" library="resistor" deviceset="R-EU_" device="R0805" value="20k"/>
 <part name="15" library="resistor" deviceset="R-EU_" device="R0805" value="4k7"/>
 <part name="16" library="resistor" deviceset="R-EU_" device="R0805" value="15k"/>
-<part name="17" library="resistor" deviceset="R-EU_" device="R0805" value="301k"/>
+<part name="17" library="resistor" deviceset="R-EU_" device="R0805" value="300k"/>
 <part name="C1" library="resistor" deviceset="C-EU" device="C0805" value="470n"/>
 <part name="C2" library="resistor" deviceset="C-EU" device="C0805" value="470n"/>
 <part name="C3" library="resistor" deviceset="C-EU" device="C0805" value="470n"/>
@@ -5784,7 +5784,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C8" library="resistor" deviceset="C-EU" device="C0805" value="220n"/>
 <part name="C9" library="resistor" deviceset="C-EU" device="C0805" value="2n2"/>
 <part name="IC1" library="linear" deviceset="TL074" device="D"/>
-<part name="C10" library="resistor" deviceset="C-EU" device="C0603"/>
+<part name="C10" library="resistor" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="NOISE_IN" library="joakim" deviceset="MA01-1J" device="P"/>
 <part name="LEVEL1" library="joakim" deviceset="MA01-1J" device="P"/>
 <part name="LEVEL2" library="joakim" deviceset="MA01-1J" device="P"/>

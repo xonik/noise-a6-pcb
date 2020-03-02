@@ -2428,7 +2428,7 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 <element name="8" library="resistor" package="R0805" value="68k" x="17.78" y="22.225" smashed="yes" rot="R270">
 <attribute name="VALUE" x="15.494" y="22.987" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="9" library="resistor" package="R0805" value="33.2k" x="27.94" y="17.145" smashed="yes" rot="R270">
+<element name="9" library="resistor" package="R0805" value="33k" x="27.94" y="17.145" smashed="yes" rot="R270">
 <attribute name="VALUE" x="25.654" y="17.907" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="10" library="resistor" package="R0805" value="10k" x="25.4" y="17.145" smashed="yes" rot="R270">
@@ -2452,7 +2452,7 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 <element name="16" library="resistor" package="R0805" value="15k" x="20.32" y="6.985" smashed="yes" rot="R270">
 <attribute name="VALUE" x="18.034" y="7.747" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="17" library="resistor" package="R0805" value="301k" x="22.86" y="6.985" smashed="yes" rot="R90">
+<element name="17" library="resistor" package="R0805" value="300k" x="22.86" y="6.985" smashed="yes" rot="R90">
 <attribute name="VALUE" x="25.146" y="6.223" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C1" library="resistor" package="C0805" value="470n" x="10.16" y="6.985" smashed="yes" rot="R90">
@@ -2485,7 +2485,7 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 <element name="IC1" library="linear" package="SO14" value="TL074D" x="13.97" y="14.605" smashed="yes">
 <attribute name="VALUE" x="19.812" y="12.7" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C10" library="resistor" package="C0603" value="" x="20.0025" y="14.605" smashed="yes" rot="R270">
+<element name="C10" library="resistor" package="C0603" value="100nF" x="20.0025" y="14.605" smashed="yes" rot="R270">
 <attribute name="VALUE" x="17.9705" y="15.494" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="NOISE_IN" library="joakim" package="SIP-PIN01-1J" value="" x="7.62" y="3.175" smashed="yes">
