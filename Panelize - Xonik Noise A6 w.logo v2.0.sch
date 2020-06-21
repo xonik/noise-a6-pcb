@@ -5813,8 +5813,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <sheets>
 <sheet>
 <plain>
-<text x="66.04" y="139.7" size="1.778" layer="97">Use external 100k trimmer 
-for good amplitude adjustability
+<text x="66.04" y="139.7" size="1.778" layer="97">Mount EITHER 20k or external 50k trimmer
 NB: 2.43k in simulation???</text>
 <text x="139.7" y="73.66" size="1.778" layer="97">Approximated
 3dB/oct filter</text>
